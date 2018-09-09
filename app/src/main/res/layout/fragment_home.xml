@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edu.knowit.knowit.HomeFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundmain">
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBarHome"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+        <ListView
+            android:id="@+id/paymentListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:fadeScrollbars="true"
+            android:clickable="true"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="50dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/noPost"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_gravity="center_vertical"
+        android:textSize="@dimen/no_post_text"
+
+        android:text="No Post"/>
+
+
+
+
+</FrameLayout>

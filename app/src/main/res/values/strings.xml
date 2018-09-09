@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">eWater</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="dialogfragment">Open DialogFragment</string>
+    <string name="alertdialogfragment">Open Alert DialogFragment</string>
+
+
+    <!-- login label -->
+    <string name="signlabelemail">Email</string>
+    <string name="signlabelpassword">Password</string>
+    <!-- login placeholder -->
+    <string name="signplaceholderemail">Email</string>
+    <string name="signplaceholderpassword">Password</string>
+    <!-- register label -->
+    <string name="rglabelfname">First Name</string>
+    <string name="rglabelsliitid">NIC</string>
+    <string name="rglabelcontact">Contact</string>
+    <string name="rglabelemail">Email</string>
+    <string name="rglabelpassword">Password</string>
+    <string name="rglabelcomfirmpassword">Comfirm Password</string>
+    <!-- register placeholder -->
+    <string name="rgplaceholderfname">First Name</string>
+    <string name="rgplaceholdersliitid">NIC</string>
+    <string name="rgplaceholdercontact">Contact</string>
+    <string name="rgplaceholderemail">Email Address</string>
+    <string name="rgplaceholderpassword">Password</string>
+    <string name="rgplaceholdercomfirmpassword">Comfirm Password</string>
+
+    <!-- Firebase database fields -->
+    <string name="DB_UserDetails">user_details_tab</string>
+    <string name="dbname_user_photos">user_photos</string>
+    <string name="rglabelcommfirmpassword">Comfirm Password</string>
+    <string name="q_a">Post a Comment</string>
+    <string name="post_title">Title</string>
+    <string name="post_description">Description</string>
+    <string name="btn_attach">Attach</string>
+    <string name="btn_submit">Submit</string>
+    <string name="delete_button">Delete</string>
+
+   <string name="google_maps_API_key">AIzaSyBuljOjByqE0GRMh19DT2vffTYhKU0wEuo</string>
+
+
+
+
+</resources>

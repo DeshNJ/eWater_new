@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edu.knowit.knowit.SearchFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundmain">
+
+        <LinearLayout
+            android:id="@+id/searchLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="5dp"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.8"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="vertical">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:maxLines="1"
+                    android:id="@+id/searchText"/>
+                    <Spinner
+                        android:id="@+id/searchDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:padding="5sp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_horizontal"
+                android:paddingRight="10dp">
+                <ImageButton
+                    android:id="@+id/search_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:src="@drawable/ic_search_black_24dp"
+                    android:textSize="@dimen/textSize"
+                    android:background="@color/colorFontPanelAlpha"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/paymentListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/searchLinearLayout"
+            android:paddingTop="5dp"
+            android:paddingLeft="5dp"
+            android:fadeScrollbars="true"
+            android:clickable="true"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="50dp"/>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

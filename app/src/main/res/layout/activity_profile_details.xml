@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/card_shadow_1"
+    tools:context="com.edu.knowit.knowit.RegisterFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="70sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="20dp"
+                android:id="@+id/credentialPanel">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/avatar"
+                        android:layout_width="100sp"
+                        android:layout_height="100sp"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/ic_person_outline_black_24dp"
+                        app:civ_border_width="1dp"
+                        app:civ_border_color="@color/colorFontPanel"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10sp"/>
+
+
+
+                    <EditText
+                        android:id="@+id/rgname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/rgplaceholderfname"
+                        android:maxLines="1"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:background="@drawable/edittextbackground"
+                        android:layout_marginBottom="20dp"/>
+
+                    <EditText
+                        android:id="@+id/rgsliitid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/rgplaceholdersliitid"
+                        android:maxLines="1"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:background="@drawable/edittextbackground"
+                        android:layout_marginBottom="20dp"/>
+
+
+
+                    <EditText
+                        android:id="@+id/rgmobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/rgplaceholdercontact"
+                        android:maxLines="1"
+                        android:paddingLeft="32dp"
+                        android:paddingRight="32dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:background="@drawable/edittextbackground"
+                        android:layout_marginBottom="20dp"/>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/credentialPanel"
+                android:paddingTop="20dp"
+                android:orientation="vertical"
+                android:paddingBottom="20dp">
+
+                <Button
+                    android:id="@+id/updateBtn"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/buttonround"
+                    android:textColor="#ffffff"
+                    android:text="Update"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp">
+                </View>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

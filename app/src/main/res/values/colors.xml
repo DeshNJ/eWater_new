@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2574c2</color>
+    <color name="colorAccent">#07ABA0</color>
+
+    <!-- cs colours -->
+    <color name="colorBackPanel">#f4f5f9</color>
+    <color name="colorFontPanel">#ffff</color>
+
+    <!-- alpha colors -->
+    <color name="colorFontPanelAlpha">#d9ffffff</color>
+
+    <!-- banner colors -->
+    <color name="colorGeneralBanner">#003366</color>
+    <!-- side menu -->
+    <color name="colorSideMenu">#2574c2</color>
+
+
+    <!-- custom -->
+    <color name="backgroundmain">#f4f5f9</color>
+    <color name="Button_and_field_Colour">#013244</color>
+    <color name="Button_Delete">#e74c3c</color>
+    <color name="display_txt_colour">#7697A2</color>
+
+    <!-- Button Colors -->
+    <color name="colorBtnPrimary">#003366</color>
+    <color name="colorFacebookBtn">#495fb1</color>
+    <color name="colorYellowBtn">#fcb012</color>
+    <color name="colorLightBlueBtn">#2574c2</color>
+
+    <!-- Text Color -->
+    <color name="colorTextPrimary">#1e272e</color>
+    <!-- Card -->
+
+    <color name="transparent">#00000000</color>
+    <!-- card colors -->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="card_detailing">#eee</color>
+
+</resources>
